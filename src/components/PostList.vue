@@ -7,7 +7,12 @@
 
 <script>
 export default {
-
+    props: { //компонент ожидает данные 
+        posts: { // компонент ожидает посты
+            type: Array, // тип получаемого props
+            required: true // обязательны
+        }
+    }
 }
 </script>
     
