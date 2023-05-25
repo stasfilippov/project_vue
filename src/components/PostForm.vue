@@ -13,11 +13,12 @@
             type="text" 
             placeholder="Описание"
         >
-        <button 
-            class="btn" 
+        <my-button 
+            class="btn"
+            style="align-self: flex-end; margin-top: 15px;"
             @click="createPost()"
         >Создать
-        </button>
+        </my-button>
     </form>
 </template>
 
@@ -57,11 +58,4 @@ form {
     margin-top: 15px;
 }
 
-.btn {
-    align-self: flex-end;
-    margin-top: 15px;
-    padding: 10px 15px;
-    color: teal;
-    border: 1px solid teal;
-}
 </style>
